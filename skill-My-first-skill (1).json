@@ -1,0 +1,2016 @@
+{
+  "intents": [
+    {
+      "intent": "Customer_Address",
+      "examples": [
+        {
+          "text": "at street 5 lake view dehradun",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                22,
+                30
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                3,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "deliver it at street 2 shyamla hills singrauli",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                37,
+                46
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                14,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "deliver it to nehru nagar colony bhopal",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                33,
+                39
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                14,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my address is mid town singrauli",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                23,
+                32
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "powder gali mumbai",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                12,
+                18
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "small town in east delhi",
+          "mentions": [
+            {
+              "entity": "Customer_City",
+              "location": [
+                14,
+                24
+              ]
+            },
+            {
+              "entity": "Customer_address",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Name",
+      "examples": [
+        {
+          "text": "abishek"
+        },
+        {
+          "text": "iam abishek",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam manoj",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam nancy",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam ranveer",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam sahil",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam sanjay",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam shivam",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iam sujata",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "manoj",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is abishek",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is den",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is manoj",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is nancy"
+        },
+        {
+          "text": "my name is ranveer",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sahil",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is shivam",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sujata",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nancy",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "shivam",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sujata",
+          "mentions": [
+            {
+              "entity": "Customer_Name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Decision",
+      "examples": [
+        {
+          "text": "I don't want to order now.",
+          "mentions": [
+            {
+              "entity": "Decision",
+              "location": [
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes, i want to order more",
+          "mentions": [
+            {
+              "entity": "Decision",
+              "location": [
+                21,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Enquiry",
+      "examples": [
+        {
+          "text": "any offers"
+        },
+        {
+          "text": "are there any offers available"
+        },
+        {
+          "text": "Items available in the store"
+        },
+        {
+          "text": "I want to see the offers"
+        },
+        {
+          "text": "show me the items"
+        },
+        {
+          "text": "show me the items available in your store"
+        },
+        {
+          "text": "what are the different items I can get?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hii"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Order",
+      "examples": [
+        {
+          "text": "can you please order fruits"
+        },
+        {
+          "text": "can you please order vegetables"
+        },
+        {
+          "text": "I want to order",
+          "mentions": [
+            {
+              "entity": "Order",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want to order fruits"
+        },
+        {
+          "text": "I want to order groceries"
+        },
+        {
+          "text": "I want to order vegetables"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Customer_address",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mid town",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nehru nagar colony",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "powder gali",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "small town",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "street 2 shyamla hills",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "street 5 lake view",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Customer_City",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bhopal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dehradun",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "east delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "indore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jayant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "karnatka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mumbai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rajasthan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shimla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "singrauli",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "waidhan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Customer_Name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aakash",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "abishek",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "den",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "luv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "manoj",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nancy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nishant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ranveer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rima",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sahil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sanjay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shivam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sujata",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Decision",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "don't"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "more"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Email",
+          "patterns": [
+            "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Enquiry",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Items",
+          "synonyms": [
+            "menu",
+            "products"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "offers",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Fruits",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "apple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "apples",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "banana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grapes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pomegrenate",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "gud aftrnun"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "Gud evng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "Gm",
+            "gud mrng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "hllo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hii",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Grocery",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "biscuit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cooking_oil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "namkeen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sugar",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Order",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fruits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "groceries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "order",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetables",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "card",
+          "synonyms": [
+            "credit card",
+            "debit card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COD",
+          "synonyms": [
+            "cash"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UPI",
+          "synonyms": [
+            "Amazon pay",
+            "google pay",
+            "gpay",
+            "paytm",
+            "phone pay",
+            "Ppay"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vegetable",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "beans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brinjal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "potato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tomato",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://www.fast2sms.com/dev/bulkV2",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "HpntK6GDEC3VcW0w5hauqmBySeIdjRgfoxXzUsb1vl2iJ8NQ9YA9XTuHdCSjmUoE0YpD3NOb6akBvWZt"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1615914988399",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1615904285025",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1615904285025",
+      "previous_sibling": "handler_2_1615904285025"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_9_1615904142285",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1615904201937",
+      "previous_sibling": "node_5_1615904875893"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1615905976178",
+      "context": {
+        "number_2": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1615905976178"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "how much do you want?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1615906122384",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1615906122384",
+      "previous_sibling": "handler_5_1615906122384"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1615914988399",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1615956917442",
+      "previous_sibling": "node_2_1615988996059"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            " And finally give your contact number to contact you if we are unable to locate the address."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1615957257581",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1615957257582",
+      "previous_sibling": "handler_4_1615957257582"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1615904285025",
+      "event_name": "input",
+      "dialog_node": "handler_2_1615904285025"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1615904875893",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1615904929974"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1615905546646",
+      "context": {
+        "Grocery": "@Grocery"
+      },
+      "conditions": "@Grocery",
+      "event_name": "input",
+      "dialog_node": "handler_2_1615905546664"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1615905014672",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1615905014673"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1615905512703",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1615905554882"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "how much do you want?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1615905014672",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1615905014673",
+      "previous_sibling": "handler_3_1615905014673"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_8_1615906089806",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1615906102863"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1615957257581",
+      "context": {
+        "number_4": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1615957257582"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "how much do you want?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1615905976178",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1615905976178",
+      "previous_sibling": "handler_1_1615905976178"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "select anyone"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1615906103432",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1615906103442",
+      "previous_sibling": "handler_6_1615906103442"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1615906122384",
+      "context": {
+        "number_3": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1615906122384"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "how much do you want?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1615904202604",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1615904202616",
+      "previous_sibling": "handler_9_1615904202616"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1615906103432",
+      "context": {
+        "Fruits": "@Fruits"
+      },
+      "conditions": "@Fruits",
+      "event_name": "input",
+      "dialog_node": "handler_6_1615906103442"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1615956918215",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1615956918233",
+      "previous_sibling": "handler_7_1615956918233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1615904931256",
+      "context": {
+        "vegetable": "@vegetable"
+      },
+      "conditions": "@vegetable",
+      "event_name": "input",
+      "dialog_node": "handler_7_1615904931269"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1615956918215",
+      "context": {
+        "Customer_address": "@Customer_address"
+      },
+      "conditions": "@Customer_address",
+      "event_name": "input",
+      "dialog_node": "handler_7_1615956918233"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "select anyone"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1615904931256",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1615904931269",
+      "previous_sibling": "handler_7_1615904931269"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1615904202604",
+      "context": {
+        "vegetable_tomato": "@vegetable:tomato"
+      },
+      "conditions": "@vegetable:tomato",
+      "event_name": "input",
+      "dialog_node": "handler_9_1615904202616"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "select anyone"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1615905546646",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1615905546664",
+      "previous_sibling": "handler_2_1615905546664"
+    },
+    {
+      "type": "standard",
+      "title": "fruits",
+      "output": {
+        "generic": [
+          {
+            "title": "fruit list",
+            "source": "http://1.bp.blogspot.com/-t_0JVlsVbB4/VYjwEg6jdKI/AAAAAAAAAkw/IBDUaDNyRq4/s1600/Kalimati%2Bretail%2Bprice.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Which fruit item do you want?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1615903756534",
+      "conditions": "@Order:fruits",
+      "dialog_node": "node_10_1615904698837",
+      "previous_sibling": "node_1_1615904488214"
+    },
+    {
+      "type": "standard",
+      "title": "grocery",
+      "output": {
+        "generic": [
+          {
+            "title": "groceries list",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lgdBVOx-reqSf759ahHHBxyegL-QRiNsxQ&usqp=CAU",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Which grocery item you want to order?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1615903756534",
+      "conditions": "@Order:groceries",
+      "dialog_node": "node_1_1615904488214",
+      "previous_sibling": "node_9_1615904142285"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now to deliver items, please provide your address."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "payment": "@Payment.literal"
+      },
+      "conditions": "@Payment",
+      "dialog_node": "node_1_1615971448443",
+      "previous_sibling": "node_9_1615914284596"
+    },
+    {
+      "type": "frame",
+      "title": "Customer's address",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your order of items has been done with your name $Name and Email id $Email  and the invoice will be sent to your contact number $number_4 ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Customer_Address || @Customer_address",
+      "dialog_node": "node_2_1615914988399",
+      "previous_sibling": "node_1_1615971448443"
+    },
+    {
+      "type": "standard",
+      "title": "deleting context variable",
+      "output": {
+        "deleted": "<?context.remove('vegetable')?><?context.remove('number')?><?context.remove('number_2')?><?context.remove('grocery')?><?context.remove('number_2')?><?context.remove('Fruit')?><?context.remove('number_3')?><?context.remove('Name')?><?context.remove('Email')?><?context.remove('number_2')?><?context.remove('payment')?><?context.remove('Customer_address')?><?context.remove('Customer_City')?><?context.remove('number_4')?>",
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1615914988399",
+      "conditions": "true",
+      "dialog_node": "node_2_1615988996059",
+      "previous_sibling": "node_9_1615969912794"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Greetings || #Greetings",
+      "dialog_node": "node_4_1615873429442",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Enquiry",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Enquiry || #Enquiry",
+      "dialog_node": "node_4_1615874466732",
+      "previous_sibling": "node_4_1615873429442"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your order of $grocery of $number_2 kg/packet/dozen has been done. \nDo you want to order more items?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1615904488214",
+      "conditions": "@Grocery",
+      "dialog_node": "node_4_1615905512703"
+    },
+    {
+      "type": "standard",
+      "title": "list",
+      "output": {
+        "generic": [
+          {
+            "title": "select category from which you want to order",
+            "options": [
+              {
+                "label": "vegetable ",
+                "value": {
+                  "input": {
+                    "text": "vegetable list"
+                  }
+                }
+              },
+              {
+                "label": "grocery",
+                "value": {
+                  "input": {
+                    "text": "grocery list"
+                  }
+                }
+              },
+              {
+                "label": "fruit",
+                "value": {
+                  "input": {
+                    "text": "fruit list"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Order || #Order",
+      "dialog_node": "node_5_1615903756534",
+      "previous_sibling": "node_4_1615874466732"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your order of $vegetable of $number kg has been done. \nDo you want to order more items?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615904142285",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@vegetable",
+      "dialog_node": "node_5_1615904875893"
+    },
+    {
+      "type": "standard",
+      "title": "decision",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Decision || #Decision",
+      "dialog_node": "node_7_1615914693936",
+      "previous_sibling": "node_5_1615903756534"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your order of $Fruits of $number_3 kg has been done. \nDo you want to order more items?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1615904698837",
+      "conditions": "@Fruits",
+      "dialog_node": "node_8_1615906089806"
+    },
+    {
+      "type": "standard",
+      "title": "vegetable",
+      "output": {
+        "generic": [
+          {
+            "title": "vegetables list",
+            "source": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/a8f07467be6c7fae0fbb5064c7165451e5435dfc-tc-img-preview.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "enter your vegetable name you want to order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1615903756534",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@Order:vegetables",
+      "dialog_node": "node_9_1615904142285"
+    },
+    {
+      "type": "standard",
+      "title": "Email",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Email",
+      "dialog_node": "node_9_1615914284596",
+      "previous_sibling": "node_9_1615961679423"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Customer_Name || #Customer_Name",
+      "dialog_node": "node_9_1615961679423",
+      "previous_sibling": "node_7_1615914693936"
+    },
+    {
+      "type": "standard",
+      "title": "message node",
+      "parent": "node_2_1615914988399",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "route": "q",
+            "message": "Your order of items has been done with your name $Name and Email id $Email and it will be send to your address $Customer_address in city $Customer_City in 1:30 hrs. please pay the bill amount with the $Payment method and  invoice will be sent to your contact number $number_4 .",
+            "numbers": "$number_4",
+            "language": "english",
+            "sender_id": "FSTSMS"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1615988996059"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1615969912794"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Items ",
+            "source": "https://listonic.com/wp-content/uploads/2018/12/shopping-list-template-Basic-Grocery-List.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1615874466732",
+      "conditions": "@Enquiry:Items",
+      "dialog_node": "response_10_1615874587271"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Message sent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615969912794",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1615969952348"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_9_1615969912794",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1615969955062",
+      "previous_sibling": "response_1_1615969952348"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good evening , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615873429442",
+      "conditions": "@Greetings:(Good Evening)",
+      "dialog_node": "response_2_1615873890378",
+      "previous_sibling": "response_6_1615873849860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good morning , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615873429442",
+      "conditions": "@Greetings:(Good Morning)",
+      "dialog_node": "response_4_1615873774670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "vegetables list",
+            "source": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/a8f07467be6c7fae0fbb5064c7165451e5435dfc-tc-img-preview.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1615904142285",
+      "disabled": true,
+      "dialog_node": "response_4_1615904180672",
+      "previous_sibling": "slot_2_1615904285025"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hii , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615873429442",
+      "conditions": "@Greetings:hii",
+      "dialog_node": "response_5_1615873969305",
+      "previous_sibling": "response_9_1615873943990"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hello , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615873429442",
+      "conditions": "@Greetings:Hello",
+      "dialog_node": "response_6_1615873849860",
+      "previous_sibling": "response_4_1615873774670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your email id $Email has been registered too with our store. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Enter the mode of payment from which you wish to pay."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615914284596",
+      "context": {
+        "Email": "@Email.literal"
+      },
+      "conditions": "@Email:Email",
+      "dialog_node": "response_6_1615914309244"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Could you please tell me your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1615914693936",
+      "conditions": "@Decision:no",
+      "dialog_node": "response_7_1615914812339",
+      "previous_sibling": "response_8_1615914739663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1615904875893",
+      "disabled": true,
+      "dialog_node": "response_8_1615904921167",
+      "previous_sibling": "slot_10_1615905014672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok then type i want to order more"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1615914693936",
+      "conditions": "@Decision:yes",
+      "dialog_node": "response_8_1615914739663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good afternoon , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615873429442",
+      "conditions": "@Greetings:(Good Afternoon)",
+      "dialog_node": "response_9_1615873943990",
+      "previous_sibling": "response_2_1615873890378"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "20% off on beverages"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "15% off on biscuits"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Enjoy 3% extra on paying through UPI ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Extra 20% discount on buying anything between 4 to 6 pm\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1615874466732",
+      "conditions": "@Enquiry:offers",
+      "dialog_node": "response_9_1615875314598",
+      "previous_sibling": "response_10_1615874587271"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your name $Name has been registered.\nNow , please enter your Email id for future reference."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615961679423",
+      "context": {
+        "Name": "@Customer_Name.literal"
+      },
+      "conditions": "@Customer_Name",
+      "dialog_node": "response_9_1615961707755"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1615904875893",
+      "variable": "$number",
+      "dialog_node": "slot_10_1615905014672",
+      "previous_sibling": "slot_1_1615904931256"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1615904875893",
+      "variable": "$vegetable",
+      "dialog_node": "slot_1_1615904931256",
+      "previous_sibling": "handler_2_1615904929974"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1615914988399",
+      "variable": "$number_4",
+      "dialog_node": "slot_1_1615957257581",
+      "previous_sibling": "slot_4_1615956918215"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1615904142285",
+      "dialog_node": "slot_2_1615904285025",
+      "previous_sibling": "slot_3_1615904202604"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1615904142285",
+      "variable": "$vegetable_tomato",
+      "dialog_node": "slot_3_1615904202604",
+      "previous_sibling": "handler_1_1615904201937"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1615905512703",
+      "variable": "$Grocery",
+      "dialog_node": "slot_4_1615905546646",
+      "previous_sibling": "handler_3_1615905554882"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1615914988399",
+      "variable": "$Customer_address",
+      "dialog_node": "slot_4_1615956918215",
+      "previous_sibling": "handler_1_1615956917442"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1615905512703",
+      "variable": "$number_2",
+      "dialog_node": "slot_5_1615905976178",
+      "previous_sibling": "slot_4_1615905546646"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1615906089806",
+      "variable": "$Fruits",
+      "dialog_node": "slot_7_1615906103432",
+      "previous_sibling": "handler_4_1615906102863"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1615906089806",
+      "variable": "$number_3",
+      "dialog_node": "slot_7_1615906122384",
+      "previous_sibling": "slot_7_1615906103432"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am store's chatbot and I am here to help you to see the menu, order items , prices .  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
